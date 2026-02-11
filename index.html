@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
 <body>
+
+    <h1>Formulários</h1>
+    <h3>Inscrições</h3>
         <form id="form-inscricao">
         <label> Nome:</label>
         <input type="text"id="nome">
@@ -20,6 +24,7 @@
          
     <p id="mensagem"></p>
     </form>
+    <h3>Senhas</h3>
         <form id="validarDesafio1">
            <label> Senha:</label>
          <input type="password" id="senha1">
@@ -32,7 +37,7 @@
      
          <p id="mensagem2"></p>
     </form>
-
+    <h3>Descontos</h3>
     <form id="validarDesafio2">
     <label> Tem mais de 60 anos? </label>
     <input type="text" id="idade2">
@@ -40,10 +45,11 @@
            <label> É estudante? </label>
            <input type="text" id="estudante">
          <br>
+         <button type="button" onclick="validarDesafio2()">Entrar</button>
     </form>
-    <button type="button" onclick="validarDesafio2()">Entrar</button>
+    
      <p id="mensagem3"></p>
-
+    <h3>Dados</h3>
     <form id="validarDesafio3()">
          <label> Nome: </label>
     <input type="text" id="nome2">
